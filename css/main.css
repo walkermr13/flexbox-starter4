@@ -116,15 +116,37 @@ body {
 
 .div-1, .div-2, .div-3 {
   display: flex;
-  width: 30%;
+  width: 25%;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  font-family: 'dancing script', sans-serif;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.2em;
   height: 300px;
+  border: 2px solid lightslategray;
+  color: whitesmoke;
+  padding: 20px;
 }
+
+.div-1 {
+    background: url(../img/mountain.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.div-2 {
+    background: url(../img/flower.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-3 {
+    background: url(../img/trees.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
